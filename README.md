@@ -1,6 +1,6 @@
 # Rockbuster Stealth Data Analysis Project
 
-![This is an image](RackMultipart20220309-4-uuykpi_html_89605f79fb0a2033.png)
+![This is an image](![Rockbuster Logo](https://user-images.githubusercontent.com/101165108/157403799-ac72e8c9-39b4-4ba4-b410-dca144e63057.png))
 
 **Overview and Purpose**
 
