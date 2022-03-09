@@ -20,17 +20,17 @@ The Rockbuster Stealth Management Board has asked a series of business questions
 
 Here are the main questions they&#39;d like to answer:
 
-- Which movies contributed the most/least to revenue gain?
-- What was the average rental duration for all videos?
-- Which countries and cities are Rockbuster customers based in?
-- Who are the top five customers, by total amount paid, within those countries and cities?
-- Where are customers with a high lifetime value based?
-- Do sales figures vary between geographic regions?
+  - Which movies contributed the most/least to revenue gain?
+  - What was the average rental duration for all videos?
+  - Which countries and cities are Rockbuster customers based in?
+  - Who are the top five customers, by total amount paid, within those countries and cities?
+  - Where are customers with a high lifetime value based?
+  - Do sales figures vary between geographic regions?
 
 ## **Tools and Skills**
 
 ![](https://user-images.githubusercontent.com/101165108/157404795-a913f834-b4f5-40a7-8f5e-9f6d7582d46c.png) 
-#### **PostgreSQL:**   Database-Querying Using Basic Rules and Best Practices
+### **PostgreSQL:**   Database-Querying Using Basic Rules and Best Practices
 
 • Develop a query plan for scripts to ensure more optimized queries using EXPLAIN for costs
 
@@ -61,7 +61,7 @@ Here are the main questions they&#39;d like to answer:
 • Exporting query results to .csv files for Microsoft Excel and Tableau
 
 ![](https://user-images.githubusercontent.com/101165108/157404857-78432359-3535-46e6-8c46-4bc01e31acde.png) 
-#### **Tableau:**  Visualization of Results Following Visual Design Standards
+### **Tableau:**  Visualization of Results Following Visual Design Standards
 
 • Spatial analysis using point maps, heat maps, choropleth maps, graduated symbol maps, and combination maps
 
