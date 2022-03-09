@@ -32,54 +32,54 @@ Here are the main questions they&#39;d like to answer:
 ![](https://user-images.githubusercontent.com/101165108/157404795-a913f834-b4f5-40a7-8f5e-9f6d7582d46c.png) 
 ### **PostgreSQL:**   Database-Querying Using Basic Rules and Best Practices
 
-• Develop a query plan for scripts to ensure more optimized queries using EXPLAIN for costs
+  - Develop a query plan for scripts to ensure more optimized queries using EXPLAIN for costs
 
-• Use ETL (Extract, Transform, Load) to migrate data from one database to another.
+  - Use ETL (Extract, Transform, Load) to migrate data from one database to another.
 
-• Cleaning the data—duplicates, non-uniform data, incorrect data, and missing data
+  - Cleaning the data—duplicates, non-uniform data, incorrect data, and missing data
 
-• CREATE commands for tables and indexes using CREATE TABLE, INSERT, DEFAULT, and ALTER
+  - CREATE commands for tables and indexes using CREATE TABLE, INSERT, DEFAULT, and ALTER
 
-• SELECT commands using FROM, WHERE, ORDER BY, LIMIT, GROUP BY, DISTINCT,
+  - SELECT commands using FROM, WHERE, ORDER BY, LIMIT, GROUP BY, DISTINCT,
 
-• UPDATE commands to modify data using SET and WHERE
+  - UPDATE commands to modify data using SET and WHERE
 
-• DELETE commands using DROP and WHERE
+  - DELETE commands using DROP and WHERE
 
-• Constraint commands using UNIQUE, NOT NULL, PRIMARY KEY, FOREIGN KEY and CHECK
+  - Constraint commands using UNIQUE, NOT NULL, PRIMARY KEY, FOREIGN KEY and CHECK
 
-• Aggregate functions with GROUP BY, such as COUNT, SUM, MAX, MIN, AVG
+  - Aggregate functions with GROUP BY, such as COUNT, SUM, MAX, MIN, AVG
 
-• Filtering with WHERE (BETWEEN [AND, NOT OR, LIKE], OR, IN), GROUP BY, ORDER BY, HAVING, CASE [WHEN, THEN, END])
+  - Filtering with WHERE (BETWEEN [AND, NOT OR, LIKE], OR, IN), GROUP BY, ORDER BY, HAVING, CASE [WHEN, THEN, END])
 
-• Five types of joins: INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, and multiple joins.
+  - Five types of joins: INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, and multiple joins.
 
-• Create a query within a query using subqueries with inner and outer statements
+  - Create a query within a query using subqueries with inner and outer statements
 
-• Using CTE (Common Table Expressions) in lieu of subqueries
+  - Using CTE (Common Table Expressions) in lieu of subqueries
 
-• Exporting query results to .csv files for Microsoft Excel and Tableau
+  - Exporting query results to .csv files for Microsoft Excel and Tableau
 
 ![](https://user-images.githubusercontent.com/101165108/157404857-78432359-3535-46e6-8c46-4bc01e31acde.png) 
 ### **Tableau:**  Visualization of Results Following Visual Design Standards
 
-• Spatial analysis using point maps, heat maps, choropleth maps, graduated symbol maps, and combination maps
+  - Spatial analysis using point maps, heat maps, choropleth maps, graduated symbol maps, and combination maps
 
-• Textual analysis using word clouds and packed bubble charts
+  - Textual analysis using word clouds and packed bubble charts
 
-• Scatterplots and bubble charts
+  - Scatterplots and bubble charts
 
-• Statistical visualizations such as histograms and boxplots
+  - Statistical visualizations such as histograms and boxplots
 
-• Composition and comparison charts such as treemaps and pie charts
+  - Composition and comparison charts such as treemaps and pie charts
 
-• Frequencies and distributions
+  - Frequencies and distributions
 
-• Temporal charts such as line charts, bar and column charts, area charts
+  - Temporal charts such as line charts, bar and column charts, area charts
 
-- Forecasting using linear extrapolation, averaging, and exponential smoothing
+  - Forecasting using linear extrapolation, averaging, and exponential smoothing
 
-• Create dashboards and a storyboard for presentation purposes.
+  - Create dashboards and a storyboard for presentation purposes.
 
 ## **Project Steps**
 
