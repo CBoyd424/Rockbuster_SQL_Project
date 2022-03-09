@@ -2,11 +2,11 @@
 
 ![](https://user-images.githubusercontent.com/101165108/157403799-ac72e8c9-39b4-4ba4-b410-dca144e63057.png)
 
-**Overview and Purpose**
+## **Overview and Purpose**
 
 Rockbuster Stealth LLC is a movie rental company that used to have stores around the world. Facing stiff competition from streaming services such as Netflix and Amazon Prime, the Rockbuster Stealth management team is planning to use its existing movie licenses to launch an online video rental service in order to stay competitive.
 
-**Context**
+## **Context**
 
 Rockbuster&#39;s dataset was ready for a relational database management system. In order to answer the questions posed by different departments, they needed someone to query the data using SQL.
 
@@ -14,7 +14,7 @@ See the data dictionary [here](https://coach-courses-us.s3.amazonaws.com/exercis
 
 Download a .tar of Rockbuster&#39;s database [here](http://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip).
 
-**Objective**
+## **Objective**
 
 The Rockbuster Stealth Management Board has asked a series of business questions and they expect data-driven answers that they can use for their 2020 company strategy.
 
@@ -27,7 +27,7 @@ Here are the main questions they&#39;d like to answer:
 - Where are customers with a high lifetime value based?
 - Do sales figures vary between geographic regions?
 
-**Tools and Skills**
+## **Tools and Skills**
 
 ![](RackMultipart20220309-4-uuykpi_html_6a41bf0c11992ac3.png) **PostgreSQL:**   Database-Querying Using Basic Rules and Best Practices
 
@@ -79,7 +79,7 @@ Here are the main questions they&#39;d like to answer:
 
 • Create dashboards and a storyboard for presentation purposes.
 
-**Project Steps**
+## **Project Steps**
 
 First, I uploaded the dataset to PostgreSQL and then generated an entity relationship diagram (ERD), which is shown below. I chose PostgreSQL as my tool of choice because we were using Rockbuster&#39;s database, and their questions lent themselves to SQL querying. The questions dealt with subsets of the data, and SQL makes it easy to pull specific portions from datasets. The ERD is necessary for the analysis because it shows how the data tables are connected to one another. We needed an understanding of those relationships to combine the tables while querying the data. There were no difficulties with this stage of the project, as the data was ready to be uploaded into a relational database management system, and PostgreSQL has a built-in ERD generator.
 
@@ -107,7 +107,7 @@ Other additions to the analysis were a scatterplot, which showed the correlation
 
 There were no setbacks during the storyboard process, as the visualizations were straightforward.
 
-**Conclusion**
+## **Conclusion**
 
 I was able to answer all the questions that Rockbuster asked. The most surprising finding was how many cities had just one customer. If this were not an educational project, I would have reached out to a direct report, data engineer, and/or the client before delivering the final product, to find out whether the lack of customers per city is an error, or not. I did speak with my course mentor about this, mentioning that it may have been a measure to reduce the total amount of data in the dataset. He confirmed this suspicion.
 
