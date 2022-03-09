@@ -29,7 +29,8 @@ Here are the main questions they&#39;d like to answer:
 
 ## **Tools and Skills**
 
-![](https://user-images.githubusercontent.com/101165108/157404795-a913f834-b4f5-40a7-8f5e-9f6d7582d46c.png) ####**PostgreSQL:**   Database-Querying Using Basic Rules and Best Practices
+![](https://user-images.githubusercontent.com/101165108/157404795-a913f834-b4f5-40a7-8f5e-9f6d7582d46c.png) 
+#### **PostgreSQL:**   Database-Querying Using Basic Rules and Best Practices
 
 • Develop a query plan for scripts to ensure more optimized queries using EXPLAIN for costs
 
@@ -59,7 +60,8 @@ Here are the main questions they&#39;d like to answer:
 
 • Exporting query results to .csv files for Microsoft Excel and Tableau
 
-![](https://user-images.githubusercontent.com/101165108/157404857-78432359-3535-46e6-8c46-4bc01e31acde.png) #### **Tableau:**  Visualization of Results Following Visual Design Standards
+![](https://user-images.githubusercontent.com/101165108/157404857-78432359-3535-46e6-8c46-4bc01e31acde.png) 
+#### **Tableau:**  Visualization of Results Following Visual Design Standards
 
 • Spatial analysis using point maps, heat maps, choropleth maps, graduated symbol maps, and combination maps
 
@@ -83,7 +85,7 @@ Here are the main questions they&#39;d like to answer:
 
 First, I uploaded the dataset to PostgreSQL and then generated an entity relationship diagram (ERD), which is shown below. I chose PostgreSQL as my tool of choice because we were using Rockbuster&#39;s database, and their questions lent themselves to SQL querying. The questions dealt with subsets of the data, and SQL makes it easy to pull specific portions from datasets. The ERD is necessary for the analysis because it shows how the data tables are connected to one another. We needed an understanding of those relationships to combine the tables while querying the data. There were no difficulties with this stage of the project, as the data was ready to be uploaded into a relational database management system, and PostgreSQL has a built-in ERD generator.
 
-![](https://user-images.githubusercontent.com/101165108/157405065-675e1e29-ce32-4554-9d14-b04baf95f2ac.png)
+![](https://user-images.githubusercontent.com/101165108/157405817-bbb013d2-b7b5-46de-9d99-a1cfc6e9e2ea.png)
 
 Next, I queried the data to answer business questions. These were the most involved steps of the project, requiring SQL expertise. The goal was to come up with result tables that could be exported for visualization.
 
@@ -91,7 +93,7 @@ The select queries required aggregate functions, multiple joins as well as group
 
 A challenge I faced is that more than nine cities—in the top ten countries by customer count—were tied for second in terms of customer count, and Rockbuster wanted the top ten. Moreover, they were tied at a value of one, so any active city was truly in second place. SQL generated ten results, seemingly arbitrarily. In fact, cities 2-9 changed when using a subquery instead of common table expression. To navigate the &quot;multiple-second-place-cities&quot; dilemma, I included a histogram of customer counts in my final analysis after displaying on a point map the top 10 that SQL generated.
 
-![](https://user-images.githubusercontent.com/101165108/157405173-53a2b7d7-a61e-49cc-8b41-d5f90008492c.png)
+![](https://user-images.githubusercontent.com/101165108/157405893-2674a613-3124-4763-876f-a3fc6be7a468.png)
 
 In hindsight, it would have been better to include all the active cities in the table and the point map. This would have drawn more attention to the &quot;many-way&quot; tie. Additionally had this been a true analysis and not for educational purposes, I would have contacted the data engineer, my direct report, and/or client to see if the data they sent us was incomplete/corrupted. After each successful query, I exported the resulting data to .csv for version control and to be easily read by Microsoft Excel and Tableau.
 
