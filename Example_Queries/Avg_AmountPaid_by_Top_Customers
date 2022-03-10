@@ -1,3 +1,4 @@
+-- Subquery, average amount paid by the top 5 customers
 SELECT AVG (total_$_spent) AS average
 FROM (SELECT A. customer_ID, B. first_name, B. last_name, D. city, E. country,
 SUM (amount) AS total_$_spent FROM payment A
