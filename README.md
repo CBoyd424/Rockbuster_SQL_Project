@@ -10,6 +10,8 @@ Rockbuster Stealth LLC is a movie rental company that used to have stores around
 
 Rockbuster&#39;s dataset was ready for a relational database management system. In order to answer the questions posed by different departments, they needed someone to query the data using SQL.
 
+See the ERD Schema [here](https://drive.google.com/file/d/1dONaMxNQMuVKAsiuSVs9eH0Ub2DFHbJ7/view?usp=sharing).
+
 See the data dictionary [here](https://coach-courses-us.s3.amazonaws.com/exercises/1054/44753/d6a29bbb69df0b3a897faec29dcf000d/Data_Imm_3.10_DataDictionary_CBoyd.pdf).
 
 Download a .tar of Rockbuster&#39;s database [here](http://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip).
