@@ -1,4 +1,4 @@
--- CTE, top 5 customers are based within each country
+-- CTE, top 5 customers are based within each country 
 SELECT d.country,
 COUNT(DISTINCT a.customer_id) AS all_customer_count,
 COUNT(DISTINCT x.customer_id) AS top_5_customers
