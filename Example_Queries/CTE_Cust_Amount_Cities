@@ -1,4 +1,4 @@
--- Write a CTE for top 5 customers in the top 10 cities who have paid the highest total amounts
+-- Write a CTE for top 5 customers in the top 10 cities who have paid the highest total amounts 
 WITH cust_avg_$_spent_CTE (customer_id, first_name, last_name, city, country) AS
 (SELECT A. customer_ID, B. first_name, B. last_name, D. city, E. country,
 SUM (amount) AS total_$_spent FROM payment A
